@@ -6,33 +6,32 @@ html {
 }
 
 body {
-    color: white;
-    background-image:url(photos/cosmos.jpg); /** propriété body**/
-    opacity: 0.9;
+    color: black;
+    background-color: lightgrey /** propriété body**/
 }
 header {
-    display: block;
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    display: flex;
+    background-image: url("photos/cosmos.jpg");
     background-size: cover;
-    padding-bottom: .3em;
+    opacity: 0.85;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .2em;
 }
 h1 { /** propiété de h1 header**/
     font-family: 'Sacramento', serif, cursive;
-    font-size: 5em;
+    font-size: 2em;
     font-weight: bolder; 
     color:white;
-    text-align: right;
-    text-shadow: 15px 12px 8px black;
-    padding-top: 0.2em;
-    padding-right: 0.4em;
+    text-align: justify;
+    text-shadow: 15px 12px 8px rgb(109, 58, 100);
     margin: 0;
-    ;
 }
 
 header img { /**propriété image du header**/
     display: block;
-    width: 200px;
-    height: 200px; 
+    width: 100px;
+    height: 100px; 
 }
 .img-circle {
     border: 3px solid black;
@@ -71,12 +70,11 @@ header img { /**propriété image du header**/
         
             /* menu deroulant end */
 ol{
-    
+    list-style-type: lower-alpha;
+    display: block;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    top: 0;/* Set the navbar to the top */
-    width: 100%;/* Set the navbar full screen size */
     font-weight: bold;
     font-size: 18px;
     border-radius:.3em;
@@ -104,7 +102,7 @@ ol{
             }
 
             .section {
-                display:;
+                display:block;
                 background-color: #fff;
                 padding: 15px;
                 margin-bottom: 10px;
