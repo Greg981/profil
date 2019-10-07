@@ -1,0 +1,146 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(65, 112, 136) ;
+}
+
+header {font-family: arial, cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: rgb(65, 112, 136);
+    padding: 10px;
+    margin: 5px;  
+}
+.img {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.section1 {
+    display: block;
+    block-size: 100px;
+    align-content: center;
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+#header p {
+    font-family: 'Sacramento', florence, cursive;
+    font-size: 45pt;
+    color: #3b464c;
+    text-shadow: 8px 5px 8px black;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+          /* menu deroulant start */
+   
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            top: 0;/* Set the navbar to the top */
+            width: 100%;/* Set the navbar full screen size */
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+        } 
+        li {
+            float: left;
+        } 
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        } 
+        li a:hover {
+            background-color: darkgrey;
+        }
+        .onglet-actif {
+            background-color: #4CAF50; /*highlight onglet actif*/
+        }
+        
+            /* menu deroulant end */
+        
+    /* section copyright start*/
+.copyright {
+    font-size: 10pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: black;
+}
+    /* section copyright end*/
+
+     /* section quote start*/
+ .quote {
+    font-size: 15px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(117, 25, 105);
+}
+    /* section quote end*/
+
+    .boitetext{
+        display: flex;
+        background-color:lavenderblush;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        text-align:center;
+        border-radius: 6px;
+    }
+          
+    .boite{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        border-radius: 10px;
+          }
+          
+    .fix-both{
+        align-items: flex-end;
+        font-size: 20px;
+        color: darkblue;
+    }
+          
+    .titrerecette{
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+    
+    }
+    
+        /* mise en page menu end */
+
+
+    /* menu image start*/
+    
+.menu img{
+    height: 450px;
+    width:  450px;
+    border-radius: 8px;
+    }
+     /* menu image end*/
