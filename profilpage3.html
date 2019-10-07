@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="profiltest.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>profil</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+
+        <img alt="" class="img-circle" src="http://asa-housseau.fr/wp-content/uploads/2016/11/07_EcureuilRoux.jpg">
+
+        <aside>
+            <h1>Grégory Grossé <br>
+                mail: gregory.grosse@outlook.com </h1>
+        </aside>
+    </header>
+    <!-- header end -->
+
+
+    <!-- navigation bar section start-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profilpage2.html">Compétences</a></li>
+            <li><a class="onglet-actif" href="profilpage3.html">Page3</a></li>
+            <li><a href="introcsspage4.html">Page4</a></li>
+            <li><a href="introcsspage5.html">Page5 </a></li>
+            <li><a href="introcsspage6.html">Page6</a></li>
+        </ul>
+
+    </nav>
+
+
+
+    
+        <h3>Compétences Techniques</h3>
+        <canvas id="canvas" width="70%" height="15em"></canvas>
+        <script>
+            var ctx = document.getElementById("canvas").getContext('2d');
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['HTML', 'CSS', 'Javascript procédural', 'Javascript avancé', 'PHP', 'SQL', 'React', 'Angular', 'Node'], // nom des colonnes
+                    datasets: [{
+                        label: 'Web Development',
+                        data: [60, 50, 34, 45, 12, 20, 12, 54, 5], // réglages niveau des skills ! virgule à la fin crochet
+                        backgroundColor: ["red", "blue", "yellow", "darkgrey", "green", "purple", "pink", "brown", "cyan"], // order couleur data
+                        bordereWidth: 1,
+                        borderColor: "#fff",
+                        hoverBorderWidth: 3,
+                        padding: 50
+                    }],
+                }
+            });
+
+
+        </script>
+   
+
+</body>
+
+</html>

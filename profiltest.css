@@ -7,10 +7,12 @@ html {
 
 body {
     color: black;
-    background-color: lightgrey /** propriété body**/
+    background-color:lightgrey; /** propriété body**/
 }
+
 header {
     display: flex;
+    align-items: center;
     background-image: url("photos/cosmos.jpg");
     background-size: cover;
     opacity: 0.85;
@@ -18,13 +20,17 @@ header {
     padding-bottom: .2em;
     padding-left: .2em;
 }
-h1 { /** propiété de h1 header**/
+aside{
+    float: right;
+    width: 60%;
+}
+h1 { /** propiété de h1 header**/ 
+    text-align: center;
     font-family: 'Sacramento', serif, cursive;
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: bolder; 
     color:white;
-    text-align: justify;
-    text-shadow: 15px 12px 8px rgb(109, 58, 100);
+    text-shadow: 2em .09em .1em rgb(93, 35, 116);
     margin: 0;
 }
 
@@ -33,83 +39,92 @@ header img { /**propriété image du header**/
     width: 100px;
     height: 100px; 
 }
+
 .img-circle {
     border: 3px solid black;
     border-radius: 50%;
 }
 
-          /* menu deroulant start */
-   
-          ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            top: 0;/* Set the navbar to the top */
-            width: 100%;/* Set the navbar full screen size */
-            font-weight: bold;
-            font-size: 18px;
-            border-radius:.3em;
-        } 
-        li {
-            float: left;
-        } 
-        li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-        } 
-        li a:hover {
-            background-color: darkgrey;
-        }
-        .onglet-actif {
-            background-color: rgb(111, 109, 114); /*highlight onglet actif*/
-        }
-        
-            /* menu deroulant end */
-ol{
-    list-style-type: lower-alpha;
-    display: block;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius:.3em;
+    /* menu deroulant start */
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+top: 0;/* Set the navbar to the top */
+width: 100%;/* Set the navbar full screen size */
+font-weight: bold;
+font-size: 18px;
+border-radius:.3em;
 } 
-            li {
-                margin-bottom: 15px;
-                font-weight: bold;
-            }
-            progress {
-                width: 70%;
-                height: 20px;
-                color: #3fb6b2;
-                background: #efefef;
-                list-style-type: decimal;
-            }
-            progress::-webkit-progress-bar {
-                background: #efefef;
-            }
-            progress::-webkit-progress-value {
-                background: #3fb6b2;
-            } 
-            progress::-moz-progress-bar {
-                color: #3fb6b2;
-                background: #efefef;
-            }
 
-            .section {
-                display:block;
-                background-color: #fff;
-                padding: 15px;
-                margin-bottom: 10px;
-                border-radius: 10px;
-            }
+li {
+    float: left;
+    } 
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+} 
+
+li a:hover {
+background-color: darkgrey;
+}
+
+.onglet-actif {
+background-color: rgb(111, 109, 114); /*highlight onglet actif*/
+} 
+            /* menu deroulant end */
 
 
+.conteneur{
+background-color: aquamarine;
+display: flexbox;
+}
+h2 {
+font-size: 1.1em;
+color: #695cd5;
+text-align: center;
+padding: 18px 0 18px 0;
+margin: 0 0 10px 0;
+}
+                
+h2 span {
+border-radius: 10px;
+border: 4px solid #695cd5;
+padding: 10px;
+}
+
+h2:hover{
+    background-color: brown; 
+}
+
+pre{
+    width: 20%;
+}
+progress {
+float: right;
+width: 60%;
+height: 1.5em;
+color: #3fb6b2;
+background: #efefef;
+list-style-type: decimal;
+}
+
+progress::-webkit-progress-bar {
+background: #efefef;
+}
+progress::-webkit-progress-value {
+background: #3fb6b2;
+} 
+
+progress::-moz-progress-bar {
+color: #3fb6b2;
+background: #efefef;
+}
        
         /* section copyright start*/
 footer {
@@ -127,4 +142,8 @@ footer {
     padding-bottom: 10px;
     color: rgb(117, 25, 105);
 }
+h3 {
+    text-align:center;
+}
+
     /* section quote end*/
