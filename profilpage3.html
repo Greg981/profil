@@ -16,7 +16,7 @@
 
         <img alt="" class="img-circle" src="http://asa-housseau.fr/wp-content/uploads/2016/11/07_EcureuilRoux.jpg">
 
-        <aside>
+        <aside class="nom">
             <h1>Grégory Grossé <br>
                 mail: gregory.grosse@outlook.com </h1>
         </aside>
@@ -38,17 +38,17 @@
     </nav>
 
 
+    <main>
 
-    
         <h3>Compétences Techniques</h3>
-        <canvas id="canvas" width="70%" height="15em"></canvas>
+        <canvas id="canvas" width="70%" height="10em"></canvas>
         <script>
             var ctx = document.getElementById("canvas").getContext('2d');
 
             var myChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: ['HTML', 'CSS', 'Javascript procédural', 'Javascript avancé', 'PHP', 'SQL', 'React', 'Angular', 'Node'], // nom des colonnes
+                    labels: ['HTML', 'CSS', 'Javascript procédural', 'Javascript avancé', 'PHP', 'SQL', 'React', 'Angular', 'NodeJs'], // nom des colonnes
                     datasets: [{
                         label: 'Web Development',
                         data: [60, 50, 34, 45, 12, 20, 12, 54, 5], // réglages niveau des skills ! virgule à la fin crochet
@@ -63,8 +63,18 @@
 
 
         </script>
-   
 
+    </main>
+
+    <div class="quote">
+        <p>"Live your dreams, do not dream your life"</p>
+    </div>
+
+    <footer>
+
+        &copy; 2019 Greg. All rights reserved.
+
+    </footer>
 </body>
 
 </html>
