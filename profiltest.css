@@ -27,7 +27,7 @@ header {
 h1 { /** propiété de texte h1 header**/ 
     text-align: center;
     font-family: 'Sacramento', serif, cursive;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: bolder; 
     color:white;
     text-shadow: 2em .09em .1em rgb(93, 35, 116);
@@ -44,6 +44,10 @@ header img { /**propriété image du header**/
     border: 3px solid black;
     border-radius: 50%;
 }
+.langue{
+
+}
+
 /** header section end **/
 
     /** Nav bar section start **/
@@ -60,7 +64,7 @@ border-radius:.3em;
 } 
 
 li {
-    float: left;
+float: left;
     } 
 
 li a {
@@ -97,7 +101,6 @@ background-size: cover;
 background-position: center;
 color:white;
 display: flexbox;
-
 padding-bottom: 1em;
 }
 
@@ -167,3 +170,28 @@ h3 {
     text-align:center;
 }
 
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 12.5em;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
