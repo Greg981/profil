@@ -44,8 +44,8 @@ header img { /**propriété image du header**/
     border: 3px solid black;
     border-radius: 50%;
 }
-.langue{
-
+#langue{
+    justify-content: flex-end;
 }
 
 /** header section end **/
@@ -169,6 +169,16 @@ footer {
 h3 {
     text-align:center;
 }
+/* section video start*/
+.video{
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+    padding: .8em;
+
+
+}
+
 
 /* Add some content at the bottom of the video/page */
 .content {
@@ -176,7 +186,7 @@ h3 {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 100%;
+    max-width: 60%;
     padding: 20px;
 }
 
@@ -195,3 +205,5 @@ h3 {
   background: #ddd;
   color: black;
 }
+
+/* section video end*/
