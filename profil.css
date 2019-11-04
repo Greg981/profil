@@ -5,8 +5,9 @@ html {
     width: 100%;
 }
 
-body {
-    background-color: rgb(65, 112, 136) ;
+main {
+    background-image:url(localhost/gitfolder/profil/artificial-intelligence.jpg);
+     background-color: rgb(65, 112, 136);
 }
 
 header {font-family: arial, cursive;

@@ -3,11 +3,20 @@ html {
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color:rgb(65, 112, 136);
 }
 
-body {
+main {/** propriété main**/
+    display: block;
     color: black;
-    background-color:lightgrey; /** propriété body**/
+    background-image:url("photos/artificial-intelligence.jpg");
+    background-color: rgb(65, 112, 136);
+    background-size: cover;
+    opacity: 0.55;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .2em;
+ 
 }
 /** header section start **/
 header {
@@ -84,17 +93,18 @@ background-color: rgb(111, 109, 114); /*highlight onglet actif*/
 } 
             /** Nav bar section end **/
 
-/** onglet meteo start**/
-.meteo{
-padding-top: 2em;
-padding-bottom: 2em;
-width: 12.5em;
-height: 10em;
-}
-/** onglet meteo end**/
 
 /** gestion progress bar page 2 start**/
-.conteneur{
+.front{
+    background-image: url("photos/maquette.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-bottom: 1em;
+    opacity: 0.7;
+    }
+
+.language{
 background-image: url(https://thumbs.gfycat.com/BrilliantOpulentDragon-size_restricted.gif);
 background-repeat: space;
 background-size: cover;
@@ -148,6 +158,68 @@ color: #3fb6b2;
 background: #efefef;
 }
        /** gestion progress bar page 2 end**/
+
+/** gestion front end page 2 start**/
+h4{
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 10px 0 10px 0;
+}
+h4 span {
+    border-radius: .625em;
+    border: 4px solid black;
+    padding: 0.625em;
+    }
+
+form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  fieldset {
+    border: 5px solid blue;
+  }
+  
+  legend {
+    padding: 10px;
+    background: blue;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  #otherValue
+  {
+    display: none;
+  }
+  
+  #other:checked ~ #otherValue
+  {
+    display: inline-block;
+  }
+  
+.undemi{
+    display: flex;
+    justify-content: space-around;
+}
+/** gestion front end page 2 end**/
+
+.Back{
+    background-image: url("photos/maquette.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-bottom: 1em;
+    opacity: 0.7;
+    }
+
 
         /* section copyright start*/
 footer {
