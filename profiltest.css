@@ -95,14 +95,7 @@ background-color: rgb(111, 109, 114); /*highlight onglet actif*/
 
 
 /** gestion progress bar page 2 start**/
-.front{
-    background-image: url("photos/maquette.jpg");
-    background-size: cover;
-    background-position: center;
-    color:white;
-    padding-bottom: 1em;
-    opacity: 0.7;
-    }
+
 
 .language{
 background-image: url(https://thumbs.gfycat.com/BrilliantOpulentDragon-size_restricted.gif);
@@ -159,7 +152,27 @@ background: #efefef;
 }
        /** gestion progress bar page 2 end**/
 
-/** gestion front end page 2 start**/
+/** gestion front&back end page 2 start**/
+.front{
+    background-image: url("photos/maquette.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-bottom: 1em;
+    filter: brightness(55%);
+    filter: contrast(95%);
+    opacity: 95%;
+    }
+
+.Back{
+    background-image: url("photos/web.png");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-bottom: 1em;
+    filter: brightness(50%);
+    }
+
 h4{
     font-size: 1.5em;
     color: black;
@@ -174,7 +187,7 @@ h4 span {
     }
 
 form {
-    width: 600px;
+    width: 400px;
     margin: 0 auto;
   }
   
@@ -185,14 +198,17 @@ form {
   }
   
   fieldset {
-    border: 5px solid blue;
+    border: 5px solid  rgb(57, 57, 58);
+    margin-top: 3px;
+   
   }
   
   legend {
     padding: 10px;
-    background: blue;
+    background: rgb(57, 57, 58);
     font-size: 1.2em;
     color: black;
+    
   }
   
   #otherValue
@@ -209,16 +225,9 @@ form {
     display: flex;
     justify-content: space-around;
 }
-/** gestion front end page 2 end**/
 
-.Back{
-    background-image: url("photos/maquette.jpg");
-    background-size: cover;
-    background-position: center;
-    color:white;
-    padding-bottom: 1em;
-    opacity: 0.7;
-    }
+/** gestion front&back end page 2 end**/
+
 
 
         /* section copyright start*/
