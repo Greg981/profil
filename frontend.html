@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equip="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js%22%3E"></script>
     <title>profil</title>
     <link href="profiltest.css" rel="stylesheet">
 </head>
@@ -57,7 +56,7 @@
                             <label for="Understand">Comprendre</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
+                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" >
                             <label for="Duplicate">Dupliquer</label>
                         </div>
                         <div>
@@ -79,9 +78,13 @@
                             <label for="Invent">Inventer</label>
                         </div>
                     </aside>
-                </fieldset>
-                <fieldset id="front-end-validation2" form="">
+                </fieldset> <p><button onclick="montre('front-end-validation2');">Montre le fieldset numéro 2</button><br />
+                    <button onclick="cache('front-end-validation2');">Cache le fieldset numéro 2</button></p>
+                <fieldset id="front-end-validation2" form=""  style="display: none;">
+                    
+                   
                     <legend id="front-end-legend2">Validation 2 </legend>
+
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -111,7 +114,9 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="front-end-validation3" form="">
+                <p><button onclick="montre('front-end-validation3');">Montre le fieldset numéro 3 </button><br />
+                    <button onclick="cache('front-end-validation3');">Cache le fieldset numéro 3</button></p>
+                <fieldset id="front-end-validation3" form="" style="display: none;">
                     <legend id="front-end-legend3">Validation 3 </legend>
                     <aside class="undemi">
                         <div>

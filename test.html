@@ -1,0 +1,24 @@
+<!DOCTYPE html><!-- En HTML5, met en xHTML 1.0 strict si tu l'utilise(comme dans le tuto) -->
+    <head> 
+        <meta charset="iso-8859-1">
+        <script type="text/javascript">
+        //Tu met entre ces balises le javascript
+        function cache(id){
+            document.getElementById(id).style.display = "none"; }
+    
+        function montre(id){
+            document.getElementById(id).style.display = "block"; }
+        </script>
+    </head>
+    <body>
+        <fieldset id="fieldset" class="gratuit" style="display: none;"><legend class="gratuit">Informations supplémentaires - Champs Facultatifs</legend>
+<p><label for="msn">Votre adresse MSN :<br />(visible sur le site)</label> <input type="text" name="msn" id="msn" value="<?php echo (isset($_POST['msn'])) ? $msn : '' ?>"/></p><p>
+<label for="website">Votre site Web :<br />(adresse complète)</label> <input type="text" name="website" id="website" value="<?php echo (isset($_POST['website'])) ? $website : '' ?>"/></p><p>
+<label for="localisation">Localisation :</label> <input type="text" name="localisation" id="localisation" value="<?php echo (isset($_POST['localisation'])) ? $localisation : '' ?>"/></p><p>
+<label for="avatar">Choisissez votre avatar :<br />(Taille max : 10 ko)</label> <input type="file" name="avatar" id="avatar" disabled="disabled"/></p><p>
+<label for="signature"><br />Signature :</label><textarea cols="50" rows="4" name="signature" id="signature" ><?php echo (isset($_POST['signature'])) ? $signature : '' ?></textarea></p>
+</fieldset>
+    <p><button onclick="montre('fieldset');">Montré le fieldset</button><br />
+    <button onclick="cache('fieldset');">Caché le fieldset</button></p>
+    </body>
+</html>
