@@ -59,7 +59,7 @@ header img { /**propriété image du header**/
 
 /** header section end **/
 
-    /** Nav bar section start **/
+/** Nav bar section start **/
 ul {
 list-style-type: none;
 margin: 0;
@@ -91,7 +91,7 @@ background-color: darkgrey;
 .onglet-actif {
 background-color: rgb(111, 109, 114); /*highlight onglet actif*/
 } 
-            /** Nav bar section end **/
+/** Nav bar section end **/
 
 
 /** gestion progress bar page 2 start**/
@@ -150,7 +150,7 @@ progress::-moz-progress-bar {
 color: #3fb6b2;
 background: #efefef;
 }
-       /** gestion progress bar page 2 end**/
+/** gestion progress bar page 2 end**/
 
 /** gestion front&back end page 2 start**/
 .front{
@@ -200,15 +200,18 @@ form {
   fieldset {
     border: 5px solid  rgb(57, 57, 58);
     margin-top: 3px;
-   
   }
   
+#validation{
+    border: 5px solid  rgb(5, 5, 236);
+    margin-top: 3px;
+}
+
   legend {
     padding: 10px;
-    background: rgb(57, 57, 58);
+    background: rgb(118, 118, 119);
     font-size: 1.2em;
-    color: black;
-    
+    color: black; 
   }
   
   #otherValue
