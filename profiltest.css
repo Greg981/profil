@@ -196,24 +196,61 @@ form {
     color: black;
     font-size: 1.2em;
   }
-  
-  fieldset {
+  /** gestion fieldset et legend pricipal Start**/
+  fieldset { /** gestion parametre fieldset principal**/
     border: 5px solid  rgb(57, 57, 58);
     margin-top: 3px;
   }
-  
-#validation{
-    border: 5px solid  rgb(5, 5, 236);
-    margin-top: 3px;
-}
 
-  legend {
+   legend {/** gestion parametre legend principal**/
     padding: 10px;
     background: rgb(118, 118, 119);
     font-size: 1.2em;
     color: black; 
   }
-  
+  /** gestion fieldset et legend pricipal End**/
+
+  /** gestion fieldset et legend 1 Start**/
+#validation1{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(4, 4, 179);
+    margin-top: 3px;
+}
+
+ #legend1{ /** gestion parametre legende1 dans boite validation**/
+  padding: 10px;
+  background: rgb(4, 4, 179);
+  font-size: 1.2em;
+  color: black; 
+}
+/** gestion fieldset et legend 1 End**/
+
+/** gestion fieldset et legend 2 Start**/
+#validation2{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(11,214, 112);
+    margin-top: 3px;
+}
+
+#legend2{ /** gestion parametre legende2 dans boite validation**/
+    padding: 10px;
+    background: rgb(11, 214, 112);
+    font-size: 1.2em;
+    color: black; 
+  }
+  /** gestion fieldset et legend 2 End**/
+
+/** gestion fieldset et legend 3 Start**/
+#validation3{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(266,70, 9);
+    margin-top: 3px;
+}
+  #legend3{ /** gestion parametre legende3 dans boite validation**/
+    padding: 10px;
+    background: rgb(226, 70, 9);
+    font-size: 1.2em;
+    color: black; 
+  }
+  /** gestion fieldset et legend 3 End**/
+
   #otherValue
   {
     display: none;
