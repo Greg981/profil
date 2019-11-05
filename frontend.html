@@ -1,65 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equip="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js%22%3E"></script>
     <title>profil</title>
     <link href="profiltest.css" rel="stylesheet">
 </head>
+
+
 
 <body>
     <!-- header start -->
     <header>
 
         <img alt="" class="img-circle" src="http://asa-housseau.fr/wp-content/uploads/2016/11/07_EcureuilRoux.jpg">
-        <aside class=nom>
+
+        <aside class="nom">
             <h1>Grégory Grossé <br>
-                trainee web designer </h1>
+                mail: gregory.grosse@outlook.com </h1>
         </aside>
-        <!-- 
-        <aside class="langue">
-            <select class="selectpicker" data-width="fit">
-                <option data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
-                <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                <option data-content='<span class="flag-icon flag-icon-br"></span> Portuguese'>Portuguese</option>
-                <option data-content='<span class="flag-icon flag-icon-es"></span> Español'>Español</option>
-            </select>
-        </aside> -->
     </header>
     <!-- header end -->
-
-
-
 
 
     <!-- navigation bar section start-->
     <nav>
         <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="frontend.html">Front-End</a></li>
-            <li><a class="onglet-actif" href="backend.html">Back-End </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="onglet-actif" href="frontend.html">Front-End</a></li>
+            <li><a href="backend.html">Back-End</a></li>
             <li><a href="profilpage4.html">video</a></li>
-            <li><a href="profilpage3.html">Page3</a></li>
+            <li><a href="profilpage3.html">Page 3</a></li>
             <li><a href="profilpage5.html">comp</a></li>
         </ul>
 
     </nav>
-    <!-- navigation bar section end-->
 
 
 
-    <section class="Back">
+    <section class="front">
 
-        <h4><span>Developper la partie Back-End </span></h4>
+        <h4><span>Developper la partie Front-End </span></h4>
 
         <article>
 
-            <fieldset id="back-end">
-                <legend> Créer une base de données</legend>
-                <fieldset id="validation1" form="">
-                    <legend id="legend1">Validation 1 </legend>
+            <fieldset id="front-end">
+                <legend id="front-end-legend"> Maquetter une application</legend>
+                <fieldset id="front-end-validation1" form="">
+                    <legend id="front-end-legend1">Validation 1 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -89,8 +80,8 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation2" form="">
-                    <legend id="legend2">Validation 2 </legend>
+                <fieldset id="front-end-validation2" form="">
+                    <legend id="front-end-legend2">Validation 2 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -120,107 +111,8 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation3" form="">
-                    <legend id="legend3">Validation 3 </legend>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
-                            <label for="Understand">Comprendre</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
-                            <label for="Duplicate">Dupliquer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
-                            <label for="Analyse">Analyser</label>
-                        </div>
-                    </aside>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
-                            <label for="Evaluate">Evaluer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Design" name="interest" value="Design">
-                            <label for="Design">Concevoir</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Invent" name="interest" value="Invent">
-                            <label for="Invent">Inventer</label>
-                        </div>
-                    </aside>
-                </fieldset>
-            </fieldset>
-        </article>
-        <article><br>
-
-            <fieldset id="back-end">
-                <legend> Développer les composants d'accès au données</legend>
-                <fieldset id="validation1" form="">
-                    <legend id="legend1">Validation 1 </legend>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
-                            <label for="Understand">Comprendre</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
-                            <label for="Duplicate">Dupliquer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
-                            <label for="Analyse">Analyser</label>
-                        </div>
-                    </aside>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
-                            <label for="Evaluate">Evaluer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Design" name="interest" value="Design">
-                            <label for="Design">Concevoir</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Invent" name="interest" value="Invent">
-                            <label for="Invent">Inventer</label>
-                        </div>
-                    </aside>
-                </fieldset>
-                <fieldset id="validation2" form="">
-                    <legend id="legend2">Validation 2 </legend>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
-                            <label for="Understand">Comprendre</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
-                            <label for="Duplicate">Dupliquer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
-                            <label for="Analyse">Analyser</label>
-                        </div>
-                    </aside>
-                    <aside class="undemi">
-                        <div>
-                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
-                            <label for="Evaluate">Evaluer</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Design" name="interest" value="Design">
-                            <label for="Design">Concevoir</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="Invent" name="interest" value="Invent">
-                            <label for="Invent">Inventer</label>
-                        </div>
-                    </aside>
-                </fieldset>
-                <fieldset id="validation3" form="">
-                    <legend id="legend3">Validation 3 </legend>
+                <fieldset id="front-end-validation3" form="">
+                    <legend id="front-end-legend3">Validation 3 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -254,10 +146,10 @@
         </article>
         <article><br>
 
-            <fieldset id="back-end">
-                <legend> Développer la partie Back-end d'une application web ou web mobile </legend>
-                <fieldset id="validation1" form="">
-                    <legend id="legend1">Validation 1 </legend>
+            <fieldset id="front-end">
+                <legend id="front-end-legend"> Réaliser une interface utilisateur web statique et adaptable</legend>
+                <fieldset id="front-end-validation1" form="">
+                    <legend id="front-end-legend1">Validation 1 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -287,8 +179,8 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation2" form="">
-                    <legend id="legend2">Validation 2 </legend>
+                <fieldset id="front-end-validation2" form="">
+                    <legend id="front-end-legend2">Validation 2 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -318,8 +210,108 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation3" form="">
-                    <legend id="legend3">Validation 3 </legend>
+                <fieldset id="front-end-validation3" form="">
+                    <legend id="front-end-legend3">Validation 3 </legend>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
+                            <label for="Understand">Comprendre</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
+                            <label for="Duplicate">Dupliquer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
+                            <label for="Analyse">Analyser</label>
+                        </div>
+                    </aside>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
+                            <label for="Evaluate">Evaluer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Design" name="interest" value="Design">
+                            <label for="Design">Concevoir</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Invent" name="interest" value="Invent">
+                            <label for="Invent">Inventer</label>
+                        </div>
+                    </aside>
+                </fieldset>
+
+            </fieldset>
+        </article>
+        <article><br>
+
+            <fieldset id="front-end">
+                <legend id="front-end-legend"> Réaliser une interface utilisateur web dynamique</legend>
+                <fieldset id="front-end-validation1" form="">
+                    <legend id="front-end-legend1">Validation 1 </legend>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
+                            <label for="Understand">Comprendre</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
+                            <label for="Duplicate">Dupliquer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
+                            <label for="Analyse">Analyser</label>
+                        </div>
+                    </aside>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
+                            <label for="Evaluate">Evaluer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Design" name="interest" value="Design">
+                            <label for="Design">Concevoir</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Invent" name="interest" value="Invent">
+                            <label for="Invent">Inventer</label>
+                        </div>
+                    </aside>
+                </fieldset>
+                <fieldset id="front-end-validation2" form="">
+                    <legend id="front-end-legend2">Validation 2 </legend>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
+                            <label for="Understand">Comprendre</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Duplicate" name="interest" value="Duplicate" checked>
+                            <label for="Duplicate">Dupliquer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Analyse" name="interest" value="Analyse">
+                            <label for="Analyse">Analyser</label>
+                        </div>
+                    </aside>
+                    <aside class="undemi">
+                        <div>
+                            <input type="checkbox" id="Evaluate" name="interest" value="Evaluate">
+                            <label for="Evaluate">Evaluer</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Design" name="interest" value="Design">
+                            <label for="Design">Concevoir</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Invent" name="interest" value="Invent">
+                            <label for="Invent">Inventer</label>
+                        </div>
+                    </aside>
+                </fieldset>
+                <fieldset id="front-end-validation3" form="">
+                    <legend id="front-end-legend3">Validation 3 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -353,12 +345,11 @@
         </article>
         <article><br>
 
-            <fieldset id="back-end">
-                <legend> Elaborer et mettre en oeuvre des composants dans une application de gesttion de contenu ou
-                    e-commerce
+            <fieldset id="front-end">
+                <legend id="front-end-legend"> Réaliser une interface utilisateur avec une solution de gesttion de contenu ou e-commerce
                 </legend>
-                <fieldset id="validation1" form="">
-                    <legend id="legend1">Validation 1 </legend>
+                <fieldset id="front-end-validation1" form="">
+                    <legend id="front-end-legend1">Validation 1 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -388,8 +379,8 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation2" form="">
-                    <legend id="legend2">Validation 2 </legend>
+                <fieldset id="front-end-validation2" form="">
+                    <legend id="front-end-legend2">Validation 2 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -419,8 +410,8 @@
                         </div>
                     </aside>
                 </fieldset>
-                <fieldset id="validation3" form="">
-                    <legend id="legend3">Validation 3 </legend>
+                <fieldset id="front-end-validation3" form="">
+                    <legend id="front-end-legend3">Validation 3 </legend>
                     <aside class="undemi">
                         <div>
                             <input type="checkbox" id="Understand" name="interest" value="Understand" checked>
@@ -459,9 +450,6 @@
 
 
 
-
-
-
     <div class="quote">
         <p>"Live your dreams, do not dream your life"</p>
     </div>
@@ -473,8 +461,10 @@
         &copy; 2019 Greg. All rights reserved.
 
     </footer>
+
     <!-- footer end -->
 
+    <script src='profiljs1.js'></script>
 
 </body>
 

@@ -94,8 +94,7 @@ background-color: rgb(111, 109, 114); /*highlight onglet actif*/
 /** Nav bar section end **/
 
 
-/** gestion progress bar page 2 start**/
-
+/** gestion progress bar page comp start**/
 
 .language{
 background-image: url(https://thumbs.gfycat.com/BrilliantOpulentDragon-size_restricted.gif);
@@ -150,7 +149,7 @@ progress::-moz-progress-bar {
 color: #3fb6b2;
 background: #efefef;
 }
-/** gestion progress bar page 2 end**/
+/** gestion progress bar page comp end**/
 
 /** gestion front&back end page 2 start**/
 .front{
@@ -170,7 +169,7 @@ background: #efefef;
     background-position: center;
     color:white;
     padding-bottom: 1em;
-    filter: brightness(50%);
+    filter: brightness(70%);
     }
 
 h4{
@@ -196,8 +195,68 @@ form {
     color: black;
     font-size: 1.2em;
   }
-  /** gestion fieldset et legend pricipal Start**/
-  fieldset { /** gestion parametre fieldset principal**/
+  /** gestion fieldset et legend pricipal Front-End Start**/
+  #front-end { /** gestion parametre fieldset front-end**/
+    border: 5px solid  rgb(12, 12, 139);
+    margin-top: 3px;
+  }
+
+  #front-end-legend {/** gestion parametre legend front-end**/
+    padding: 10px;
+    background: rgb(230, 191, 17);
+    font-size: 1.2em;
+    color: black; 
+  }
+  /** gestion fieldset et legend pricipal Front-End End**/
+
+  /** gestion fieldset et legend 1 Front-End Start**/
+
+  #front-end-validation1{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(82, 168, 108);
+    margin-top: 3px;
+}
+
+ #front-end-legend1{ /** gestion parametre legende1 dans boite validation**/
+  padding: 10px;
+  background: rgb(82, 168, 108);
+  font-size: 1.2em;
+  color: black; 
+}
+/** gestion fieldset et legend 1 Front-End End**/
+
+  /** gestion fieldset et legend 2 Front-End Start**/
+
+  #front-end-validation2{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(133, 8, 138);
+    margin-top: 3px;
+}
+
+ #front-end-legend2{ /** gestion parametre legende1 dans boite validation**/
+  padding: 10px;
+  background: rgb(121, 23, 179);
+  font-size: 1.2em;
+  color: black; 
+}
+/** gestion fieldset et legend 2 Front-End End**/
+
+  /** gestion fieldset et legend 3 Front-End Start**/
+
+  #front-end-validation3{ /** gestion parametre boite validation**/
+    border: 5px solid  rgb(212, 14, 57);
+    margin-top: 3px;
+}
+
+ #front-end-legend3{ /** gestion parametre legende3 dans boite validation**/
+  padding: 10px;
+  background: rgb(207, 24, 48);
+  font-size: 1.2em;
+  color: black; 
+}
+/** gestion fieldset et legend 3 Front-End End**/
+
+
+
+  #back-end { /** gestion parametre fieldset back-end**/
     border: 5px solid  rgb(57, 57, 58);
     margin-top: 3px;
   }
@@ -208,9 +267,10 @@ form {
     font-size: 1.2em;
     color: black; 
   }
-  /** gestion fieldset et legend pricipal End**/
+  /** gestion fieldset et legend pricipal Back-End End**/
 
-  /** gestion fieldset et legend 1 Start**/
+  /** gestion fieldset et legend 1 Back-End Start**/
+
 #validation1{ /** gestion parametre boite validation**/
     border: 5px solid  rgb(4, 4, 179);
     margin-top: 3px;
@@ -222,9 +282,10 @@ form {
   font-size: 1.2em;
   color: black; 
 }
-/** gestion fieldset et legend 1 End**/
+/** gestion fieldset et legend 1 Back-End End**/
 
-/** gestion fieldset et legend 2 Start**/
+/** gestion fieldset et legend 2 Back-End Start**/
+
 #validation2{ /** gestion parametre boite validation**/
     border: 5px solid  rgb(11,214, 112);
     margin-top: 3px;
@@ -236,9 +297,10 @@ form {
     font-size: 1.2em;
     color: black; 
   }
-  /** gestion fieldset et legend 2 End**/
+  /** gestion fieldset et legend 2 Back-End End**/
 
-/** gestion fieldset et legend 3 Start**/
+/** gestion fieldset et legend 3 Back-End Start**/
+
 #validation3{ /** gestion parametre boite validation**/
     border: 5px solid  rgb(266,70, 9);
     margin-top: 3px;
@@ -249,7 +311,7 @@ form {
     font-size: 1.2em;
     color: black; 
   }
-  /** gestion fieldset et legend 3 End**/
+  /** gestion fieldset et legend 3 Back-End End**/
 
   #otherValue
   {
