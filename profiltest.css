@@ -190,7 +190,7 @@ form {
     margin: 0 auto;
   }
   
-  div {
+section {
     margin-bottom: 10px;
     color: black;
     font-size: 1.2em;
@@ -341,7 +341,7 @@ footer {
         /* section copyright end*/
 
     /* section quote start*/
- .quote {
+ mark {
     font-size: 1em;
     text-align: left;
     padding-top: 1.7em;
