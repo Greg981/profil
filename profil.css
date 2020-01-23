@@ -145,3 +145,11 @@ header {font-family: arial, cursive;
     border-radius: 8px;
     }
      /* menu image end*/
+     .compt5 {
+        display: flex;
+      }
+      
+      .compt p {
+        color: blueviolet;
+        margin-left:10px;
+      }

@@ -211,22 +211,34 @@ section {
 
   /** gestion fieldset et legend 1 Front-End Start**/
 
-  #front-end-validation1{ /** gestion parametre boite validation**/
-    border: 5px solid  rgb(82, 168, 108);
-    margin-top: 3px;
-}
+  /* #front-end-validation1{ /** gestion paranalyser */
 
- #front-end-legend1{ /** gestion parametre legende1 dans boite validation**/
-  padding: 10px;
-  background: rgb(82, 168, 108);
-  font-size: 1.2em;
-  color: black; 
-}
-/** gestion fieldset et legend 1 Front-End End**/
+    /* comprendre
+    
+    concevoir
+    
+    evaluer
+    
+    inventer
+    
+    duplique */
+
+ /* #front-end-legend1{ * gestion parametre legende1 dans boite validation* */
+  /* padding: 10px;analyser
+
+  comprendre
+  
+  concevoir
+  
+  evaluer
+  
+  inventer
+  
+  dupliqued End}**/ 
 
   /** gestion fieldset et legend 2 Front-End Start**/
 
-  #front-end-validation2{ /** gestion parametre boite validation**/
+#front-end-validation2{ /** gestion parametre boite validation**/
     border: 5px solid  rgb(133, 8, 138);
     margin-top: 3px;
 }
@@ -354,10 +366,8 @@ h3 {
 }
 /* section video start*/
 .video{
-    display: flex;
-    justify-content: center;
-    max-height: 500px;
-    padding: .8em;
+    display: flex;    border-image: initial;
+
 
 
 }
@@ -390,3 +400,16 @@ h3 {
 }
 
 /* section video end*/
+.compt5 {
+  display: flex;
+}
+
+.compt p {
+  color: blueviolet;
+  margin-left:10px;
+}
+
+.compt6 fieldset {
+ cursor: pointer;
+  
+}
